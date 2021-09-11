@@ -1,0 +1,32 @@
+.PopularMovies {
+  padding: 20px 20px 0;
+}
+
+.MoviesList-header {
+  margin: 0;
+  color: rgb(5, 85, 138);
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.MoviesList {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0;
+}
+
+.MoviesList-link {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 400;
+  color: rgb(60, 160, 226);
+}
+
+.MoviesList-link:focus,
+.MoviesList-link:hover {
+  color: rgb(5, 85, 138);
+}
+
+.MoviesList-item {
+  margin-bottom: 5px;
+}

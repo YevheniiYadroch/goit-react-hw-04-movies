@@ -1,0 +1,15 @@
+.Reviews-text {
+  font-size: 15px;
+  font-weight: 400;
+  color: rgb(60, 160, 226);
+}
+
+.Reviews-author {
+  font-size: 18px;
+  font-weight: 500;
+  color: rgb(5, 85, 138);
+}
+
+.Reviews-item {
+  color: rgb(5, 85, 138);
+}

@@ -1,0 +1,56 @@
+.SearchForm {
+  margin: 20px 20px 0;
+}
+
+.SearchForm-input {
+  width: 500px;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: 400;
+  color: rgb(60, 160, 226);
+  outline: none;
+  border: 2px solid rgb(5, 85, 138);
+  border-radius: 5px 0 0 5px;
+  border-right: none;
+}
+
+.SearchForm-input::placeholder {
+  color: rgba(60, 160, 226, 0.507);
+}
+
+.SearchForm-button {
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: 400;
+  color: rgb(60, 160, 226);
+  background-color: rgba(60, 160, 226, 0.356);
+  border: 2px solid rgb(5, 85, 138);
+  border-radius: 0 5px 5px 0;
+}
+
+.SearchForm-button:hover,
+.SearchForm-button:focus {
+  color: rgb(5, 85, 138);
+}
+
+.MoviesList {
+  margin: 20px 20px 0;
+  list-style: none;
+  padding: 0;
+}
+
+.MoviesList-link {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 400;
+  color: rgb(60, 160, 226);
+}
+
+.MoviesList-item {
+  margin-bottom: 5px;
+}
+
+.MoviesList-link:focus,
+.MoviesList-link:hover {
+  color: rgb(5, 85, 138);
+}

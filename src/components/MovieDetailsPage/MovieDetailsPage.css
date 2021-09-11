@@ -1,0 +1,68 @@
+.MovieDetails {
+  margin: 20px 20px 0;
+}
+
+.GoBackButton {
+  padding: 10px 20px;
+  font-size: 15px;
+  font-weight: 500;
+  color: rgb(60, 160, 226);
+  background-color: rgba(60, 160, 226, 0.356);
+  border: 2px solid rgb(5, 85, 138);
+  border-radius: 5px;
+}
+
+.GoBackButton:hover,
+.GoBackButton:focus {
+  color: rgb(5, 85, 138);
+}
+
+.MovieDetails-info {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.MovieDetails-img {
+  width: 400px;
+  height: auto;
+  margin-right: 70px;
+}
+
+.MovieDetails-name {
+  margin: 0 0 10px;
+  color: rgb(5, 85, 138);
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.MovieDetails-text {
+  margin: 5px 0;
+  font-size: 20px;
+  font-weight: 400;
+  color: rgb(60, 160, 226);
+}
+
+.MovieDetails-header {
+  margin: 15px 0 0;
+  font-size: 25px;
+  font-weight: 400;
+  color: rgb(5, 85, 138);
+}
+
+.MovieDetails-genres {
+  margin: 5px 0;
+  padding: 0;
+  list-style: none;
+}
+
+.MovieDetails-add {
+  text-decoration: none;
+  color: rgb(60, 160, 226);
+}
+
+.MovieDetails-add:focus,
+.MovieDetails-add:hover {
+  color: rgb(5, 85, 138);
+}

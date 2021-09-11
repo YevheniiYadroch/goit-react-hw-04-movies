@@ -1,0 +1,22 @@
+.Cast-wrapper {
+  margin-top: 20px;
+}
+
+.Cast-list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-row-gap: 20px;
+}
+
+.Cast-img {
+  width: 250px;
+  height: auto;
+}
+
+.Cast-text {
+  font-size: 15px;
+  font-weight: 500;
+  font-style: italic;
+  color: rgb(60, 160, 226);
+}
