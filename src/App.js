@@ -1,5 +1,5 @@
 import { lazy, Suspense } from 'react';
-import { NavLink, Route, Switch } from 'react-router-dom';
+import { NavLink, Route, Switch, Redirect } from 'react-router-dom';
 import Loader from 'react-loader-spinner';
 import './App.css';
 
@@ -29,7 +29,8 @@ function App() {
         <Switch>
           <Route path="/"  exact component={HomePage} />
           <Route path="/movies" exact component={MoviesPage} />
-          <Route path="/movies/:movieId"  component={MovieDetailsPage} />
+          <Route path="/movies/:movieId" component={MovieDetailsPage} />
+          <Redirect to="/" />
         </Switch>
       </Suspense>
     </div>

@@ -45,7 +45,12 @@ export default function MoviesPage() {
                 <ul className="MoviesList">
                     {movies.map(item => (
                         <li className="MoviesList-item" key={item.id}>
-                            <Link className="MoviesList-link" to={`/movies/${item.id}`}>{item.title}</Link>
+                            <Link className="MoviesList-link" to={{
+                                pathname: `/movies/${item.id}`, state: {
+                                    prevLocation: location.pathname,
+                                    query: searchQuery
+                                }
+                            }}>{item.title}</Link>
                         </li>
                     ))}
                 </ul>}
